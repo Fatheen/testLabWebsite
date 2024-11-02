@@ -1,0 +1,33 @@
+/* src/components/Research.css */
+
+.research-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .content-container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .carousel-section {
+    flex: 1;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding-left: 2rem;
+  }
+  
+  .text-section h2, .text-section h3 {
+    color: #333;
+  }
+  
+  .text-section p {
+    color: #555;
+    line-height: 1.6;
+  }
+  

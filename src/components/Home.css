@@ -1,0 +1,87 @@
+/* src/components/Home.css */
+.hero {
+    background-image: url('https://www.shutterstock.com/image-photo/abstract-background-hexagon-network-technology-600nw-2224647003.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 1.25rem;
+  }
+  
+  .quick-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .quick-link {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quick-link h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .quick-link p {
+    font-size: 1rem;
+  }
+  /* src/components/Home.css */
+
+/* Intro Section */
+.intro-section {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+  }
+  
+  .intro-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .intro-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Logos */
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .logos img {
+    width: 100px;
+    height: auto;
+  }
+  
+  

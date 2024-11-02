@@ -1,0 +1,14 @@
+/* src/components/ImageCarousel.css */
+
+.carousel-container {
+    width: 100%;
+    max-width: 500px; /* Adjust width as needed */
+    margin-right: 2rem; /* Space between carousel and text */
+  }
+  
+  .carousel-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
